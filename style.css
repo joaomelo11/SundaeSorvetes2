@@ -1,0 +1,137 @@
+
+/* Estilo geral */
+body {
+    background-color: #f7faf8;
+    color: #454b4b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #57934b;
+}
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 27px;
+    border-bottom: 3px solid #e7a0c0;
+    padding-bottom: 8px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #fcebf3;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 4px solid #79a96b;
+}
+
+.cabecalho p {
+    max-width: 800px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.cabecalho img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px;
+}   
+
+/* Menu */
+.menu {
+    background-color: #dcecf8;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #78acd1;
+}
+
+.menu h2 {
+    border-bottom: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 5px;    
+}
+
+.menu a {
+    color: #477d3d;
+    background-color: white;
+    padding: 8px 14px;
+    border: 2px solid #e7a0c0;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Seções principais */
+.secao {
+    background-color: white;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid #dce7f0;
+}
+
+.secao h2 {
+    text-align: center;
+}
+
+/* Listas */
+.lista-sabores {
+    list-style-type: square;
+    background-color: #fcebf3;
+    padding: 20px 20px 20px 45px;
+    border: 2px solid #e7a0c0;
+}
+
+.lista-sabores li {
+    padding: 5px;
+}
+
+.lista-produtos {
+    list-style-type: circle;
+}
+
+.lista-produtos li {
+    padding: 3px;
+}
+
+.lista-pedido {
+    list-style-type: decimal;
+}
+
+.lista-pedido li {
+    padding: 3px;
+}
+
+/* Links */
+a {
+    color: #477d3d;
+    font-weight: 600;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #dcecf8;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    border-top: 4px solid #78acd1;
+}
+
+.rodape p {
+    text-align: center;
+}
